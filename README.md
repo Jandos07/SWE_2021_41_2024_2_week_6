@@ -47,14 +47,20 @@ def isHappy(n):
 n = int(input("Enter a number: "))
 print(isHappy(n))
 ```
-# Assigment 5
+# Assignment 5
 ## Docker Container Commands Executed
 ---
-Below are the Commands that were executed within the `ub-cont` using Docker:
-**Start docker container using 'docker start ub-cont'**:
+Below are the commands that were executed within the `ub-cont` Docker container:
+
+### 1. Start Docker Container
+**Start docker container using:**
+```bash
+docker start ub-cont
+```
 ![Screenshot 2024-10-13 221828](https://github.com/user-attachments/assets/09c9efc1-48c9-4574-ab66-5cea5a972d3f)
 
-2.Chech OS release information:
+docker exec ub-cont cat /etc/os-release
+
 docker exec ub-cont git --version
 
 Output:
