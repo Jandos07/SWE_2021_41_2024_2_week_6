@@ -5,7 +5,8 @@
 
 
 ## Week 4: Example Code for Happy Number in Google Colab
-[https://github.com/Jandos07/SWE_2021_41_2024_2_week4]
+[SWE_2021_41_2024_2_Week_4](https://github.com/Jandos07/SWE_2021_41_2024_2_week4)
+
 For Week 4, the main purpose was to write example code in **Google Colab** to check if a number is a **happy number**. I implemented the function and tested it with various cases.
 
 
