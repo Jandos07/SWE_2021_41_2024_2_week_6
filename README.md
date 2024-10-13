@@ -57,12 +57,12 @@ Below are the commands that were executed within the `ub-cont` Docker container:
 ```bash
 docker start ub-cont
 ```
-
+### 2.Check OS release information using:
 ```
 docker exec ub-cont cat /etc/os-release
 ```
 
-Output:
+###Output:
 ```
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 NAME="Ubuntu"
@@ -80,11 +80,11 @@ LOGO=ubuntu-logo
 ```
 
 
-3.Chech Git Version
+### 3.Chech Git Version
 ```
 docker exec ub-cont git --version
 ```
-Output:
+###Output:
 ```
 git version 2.43.0
 ```
@@ -93,15 +93,15 @@ git version 2.43.0
 ```
 docker exec ub-cont python3 --version
 ```
-Output:
+### Output:
 ```
 Python 3.12.3
 ```
-5.Inspect Container Bindings:
+### 5.Inspect Container Bindings:
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" ub-cont
 ```
-Output:
+### Output:
 ```
 [C:\Users\jando\docker-stuff:/data]
 ```
