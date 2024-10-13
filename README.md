@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_Week_6_Assignment
 
 <br>
-> ##  Assignment 4
+# Assignment 4
 <br>
 
 
