@@ -46,3 +46,5 @@ def isHappy(n):
 # Input from the user
 n = int(input("Enter a number: "))
 print(isHappy(n))
+
+# Assignment 5
