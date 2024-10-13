@@ -47,6 +47,16 @@ def isHappy(n):
 n = int(input("Enter a number: "))
 print(isHappy(n))
 ```
+
+1. The isHappy() function returns True if the number is equal to 1, in which case it is happy
+2. If the number is between 2 and 6, the function returns False, because it is not happy
+3. If the number is greater than or equal to 7, it calculates the sum of the squares of the number's digits
+4. The while function gets the last digit, squares it, then adds it to the sum
+5. It then divides the number by 10 to repeat with the next digit until the number reaches 0
+6. The function calls itself using the new sum to check if it is a happy number
+7. The function returns True if one of the recursive iterations return True, ie. n == 1
+8. The function returns False if one of the recursive iterations return False, ie. n != 1 and n <= 6
+
 # Assignment 5
 ## Docker Container Commands Executed
 ---
@@ -57,12 +67,14 @@ Below are the commands that were executed within the `ub-cont` Docker container:
 ```bash
 docker start ub-cont
 ```
-### 2.Check OS release information using:
+This command lets the user enable their Docker container.
+### 2. Check OS release information using:
 ```
 docker exec ub-cont cat /etc/os-release
 ```
+This command outputs the information on the operating system of the ub-cont container. The '/etc/os-release' file contains data about the operating system (name, version, etc.)
 
-###Output:
+### Output:
 ```
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 NAME="Ubuntu"
@@ -80,27 +92,30 @@ LOGO=ubuntu-logo
 ```
 
 
-### 3.Chech Git Version
+### 3. Check Git Version
 ```
 docker exec ub-cont git --version
 ```
-###Output:
+This command checks the installed version of git in the Docker container.
+### Output:
 ```
 git version 2.43.0
 ```
 
-4.Chech Python Version:
+### 4. Check Python Version:
 ```
 docker exec ub-cont python3 --version
 ```
+This command verifies the version of Python installed in the container.
 ### Output:
 ```
 Python 3.12.3
 ```
-### 5.Inspect Container Bindings:
+### 5. Inspect Container Bindings:
 ```
 docker inspect --format="{{ .HostConfig.Binds }}" ub-cont
 ```
+This command outputs information on the bind mounts between the host machine and the Docker container. Bind mounts allow files or directories from the host to be mounted into a container.
 ### Output:
 ```
 [C:\Users\jando\docker-stuff:/data]
