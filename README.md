@@ -1,9 +1,7 @@
-# SWE_2021_41_2024_2_week_6
-
-# SWE 2021 41 2024 2 Week 6 Assignment
+# SWE_2021_41_2024_2_Week_6_Assignment
 
 ## Week 4: Example Code for Happy Number in Google Colab
-For Week 4, the main purpose was to write example code in **Google Colab** to check if a number is a **happy number**. We implemented the function and tested it with various cases.
+For Week 4, the main purpose was to write example code in **Google Colab** to check if a number is a **happy number**. I implemented the function and tested it with various cases.
 
 ### Problem Statement: Determine if a Number is Happy
 A **happy number** is defined by the following process:
@@ -16,10 +14,11 @@ A **happy number** is defined by the following process:
 **Output**: True (Happy number)
 
 **Explanation**:
-1. Start with 19: \(1^2 + 9^2 = 1 + 81 = 82\)
-2. Next, 82: \(8^2 + 2^2 = 64 + 4 = 68\)
-3. Next, 68: \(6^2 + 8^2 = 36 + 64 = 100\)
-4. Next, 100: \(1^2 + 0^2 + 0^2 = 1 + 0 + 0 = 1\) (Happy number)
+1. If we input 19 ,the calculation is: (1^2+9^2=1+81) 
+2. Next, we apply the same method to 82:   (8^2 + 2^2 = 64 + 4 = 68)
+3. Next, 68: (6^2 + 8^2 = 36 + 64 = 100)
+4. Next, 100: (1^2 + 0^2 + 0^2 = 1 + 0 + 0 = 1)
+5. Since the result is 1, we wil consider it a (Happy number)
 
 ### Week 4 Code: Happy Number Function
 The following Python code checks if a number is a happy number using a different approach:
