@@ -2,9 +2,6 @@
 
 
 # Assignment 4
-![Screenshot 2024-10-02 214008](https://github.com/user-attachments/assets/b3bb6251-348d-4fcf-b0c5-237966682c73)
-
-
 
 
 ## Week 4: Example Code for Happy Number in Google Colab
