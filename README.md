@@ -2,7 +2,8 @@
 
 
 # Assignment 4
-![Uploading Screenshot 2024-10-02 214008.png…]()
+![Screenshot 2024-10-02 214008](https://github.com/user-attachments/assets/b3bb6251-348d-4fcf-b0c5-237966682c73)
+
 
 
 
