@@ -107,13 +107,19 @@ Output:
 ```
 ## Additional Photos
 There are some additional photos of the process of checking commands.
-![Screenshot 2024-10-13 221828](https://github.com/user-attachments/assets/636343c5-ed3a-4ed4-b10b-d70975865af5)
-
-![Screenshot 2024-10-13 222905](https://github.com/user-attachments/assets/64817c8c-321f-430e-a8ff-551744d6b7c3)
-
-![Screenshot 2024-10-13 223226](https://github.com/user-attachments/assets/b40319f9-d123-42a7-8941-f63ffdbe5e7d)
-
-![Screenshot 2024-10-13 223454](https://github.com/user-attachments/assets/c4c3ae13-bbad-432f-ae29-140cb9a44084)
-
-![Screenshot 2024-10-13 223753](https://github.com/user-attachments/assets/2dc3bec2-1001-4752-97ad-c7a93877185c)
+<div style="margin-bottom: 20px;">
+    ![Screenshot 2024-10-13 221828](https://github.com/user-attachments/assets/636343c5-ed3a-4ed4-b10b-d70975865af5)
+</div>
+<div style="margin-bottom: 20px;">
+    ![Screenshot 2024-10-13 222905](https://github.com/user-attachments/assets/64817c8c-321f-430e-a8ff-551744d6b7c3)
+</div>
+<div style="margin-bottom: 20px;">
+    ![Screenshot 2024-10-13 223226](https://github.com/user-attachments/assets/b40319f9-d123-42a7-8941-f63ffdbe5e7d)
+</div>
+<div style="margin-bottom: 20px;">
+    ![Screenshot 2024-10-13 223454](https://github.com/user-attachments/assets/c4c3ae13-bbad-432f-ae29-140cb9a44084)
+</div>
+<div style="margin-bottom: 20px;">
+    ![Screenshot 2024-10-13 223753](https://github.com/user-attachments/assets/2dc3bec2-1001-4752-97ad-c7a93877185c)
+</div>
 
