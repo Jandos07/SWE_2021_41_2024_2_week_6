@@ -54,7 +54,39 @@ Below are the Commands that were executed within the `ub-cont` using Docker:
 **Start docker container using 'docker start ub-cont'**:
 ![Screenshot 2024-10-13 221828](https://github.com/user-attachments/assets/09c9efc1-48c9-4574-ab66-5cea5a972d3f)
 
-2.Retrieve Ubuntu OS details:
+2.Chech OS release information:
 docker exec ub-cont git --version
 
+Output:
+```
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+```
+![Screenshot 2024-10-13 222905](https://github.com/user-attachments/assets/fdc0fabd-a2ef-4ec6-949f-85b71b71e1d9)
 
+3.Chech Git Version
+docker exec ub-cont git --version
+Output:
+git version 2.43.0
+![Screenshot 2024-10-13 223226](https://github.com/user-attachments/assets/160f1bee-71bd-42b9-be64-c8dd5587845a)
+
+4.Chech Python Version:
+docker exec ub-cont python3 --version
+Output:
+Python 3.12.3
+![Screenshot 2024-10-13 223454](https://github.com/user-attachments/assets/87731d33-5218-422e-bc0d-29929ee9a24e)
+5.Inspect Container Bindings:
+docker inspect --format="{{ .HostConfig.Binds }}" ub-cont
+Output:
+![Screenshot 2024-10-13 223753](https://github.com/user-attachments/assets/2266bd75-a6cd-4e06-aef3-c1623386766c)
