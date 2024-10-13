@@ -23,7 +23,7 @@ A **happy number** is defined by the following process:
 2. Next, we apply the same method to 82:   (8^2 + 2^2 = 64 + 4 = 68\)
 3. Next, 68: (6^2 + 8^2 = 36 + 64 = 100\)
 4. Next, 100: (1^2 + 0^2 + 0^2 = 1 + 0 + 0 = 1\)
-5. Since the result is 1, we wil consider it a (Happy number)
+5. Since the result is 1, we will consider it a **Happy number**
 
 ### Week 4 Code: Happy Number Function
 The following Python code checks if a number is a happy number using a different approach:
@@ -47,7 +47,7 @@ def isHappy(n):
 n = int(input("Enter a number: "))
 print(isHappy(n))
 ```
-
+**Explanation**:
 1. The isHappy() function returns True if the number is equal to 1, in which case it is happy
 2. If the number is between 2 and 6, the function returns False, because it is not happy
 3. If the number is greater than or equal to 7, it calculates the sum of the squares of the number's digits
@@ -67,7 +67,7 @@ Below are the commands that were executed within the `ub-cont` Docker container:
 ```bash
 docker start ub-cont
 ```
-This command lets the user enable their Docker container.
+This command lets the user enable their Docker container to start executing commands.
 ### 2. Check OS release information using:
 ```
 docker exec ub-cont cat /etc/os-release
