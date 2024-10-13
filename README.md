@@ -57,11 +57,10 @@ Below are the commands that were executed within the `ub-cont` Docker container:
 ```bash
 docker start ub-cont
 ```
-![Screenshot 2024-10-13 221828](https://github.com/user-attachments/assets/09c9efc1-48c9-4574-ab66-5cea5a972d3f)
 
+```
 docker exec ub-cont cat /etc/os-release
-
-docker exec ub-cont git --version
+```
 
 Output:
 ```
@@ -79,20 +78,31 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
 ```
-![Screenshot 2024-10-13 222905](https://github.com/user-attachments/assets/fdc0fabd-a2ef-4ec6-949f-85b71b71e1d9)
+
 
 3.Chech Git Version
+```
 docker exec ub-cont git --version
+```
 Output:
+```
 git version 2.43.0
-![Screenshot 2024-10-13 223226](https://github.com/user-attachments/assets/160f1bee-71bd-42b9-be64-c8dd5587845a)
+```
 
 4.Chech Python Version:
+```
 docker exec ub-cont python3 --version
+```
 Output:
+```
 Python 3.12.3
-![Screenshot 2024-10-13 223454](https://github.com/user-attachments/assets/87731d33-5218-422e-bc0d-29929ee9a24e)
+```
 5.Inspect Container Bindings:
+```
 docker inspect --format="{{ .HostConfig.Binds }}" ub-cont
+```
 Output:
-![Screenshot 2024-10-13 223753](https://github.com/user-attachments/assets/2266bd75-a6cd-4e06-aef3-c1623386766c)
+```
+[C:\Users\jando\docker-stuff:/data]
+```
+
